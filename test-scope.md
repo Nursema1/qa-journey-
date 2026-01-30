@@ -5,10 +5,18 @@ Date: 2026-01-30
 Platform: Web
 
 ## In-Scope Modules
-- TODO
+- Form Authentication (/login)
+- Checkboxes
+- Dropdown
+- Inputs
+- Add/Remove Elements
 
 ## Out-of-Scope
-- TODO
+- File Upload
+- Infinite Scroll
+- Geolocation
 
 ## Test Approach
-- TODO
+- Functional testing (positive, negative, edge cases)
+- Basic UX validation
+- Manual exploratory testing
