@@ -15,4 +15,5 @@
 **Severity:** Medium  
 **Priority:** Medium
 
-![BUG-LOGIN-002](./BUG-LOGIN-002.png)
+![BUG-LOGIN-002](evidence/day-1/BUG-LOGIN-002.png)
+
