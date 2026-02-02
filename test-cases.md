@@ -59,6 +59,8 @@ Input accepts non-numeric characters without feedback
 ### TC-ICP003 _ Enter a very large number (edge case)
 **Precondition:** User is on the Input page
 
+
+
 **Steps:** 
 1. Enter a very large number (e.g., 12345699) into the Inpud field
 
@@ -67,6 +69,39 @@ System should handle large values properly (accept with limits or show validatio
 
 **Observation ( if no limits exist):**
 No limits or validation feedback are provided
+
+
+---
+
+## Dropdown Module
+
+### TC-DROP-001 - Select a valid option
+**Precondition:** user is on the Dropdown page
+
+**Steps:** 
+1. Click on the dropdown list
+2. Select ''Option 1'' 
+
+** Expected Result:** 
+Selected option is displayed as the current vaule
+
+### TC-DROP-002 – Select an option but receive no feedback
+
+**Precondition:** User is on the Dropdown page  
+
+**Steps:**
+1. Click on the dropdown list  
+2. Select “Option 1”  
+   
+
+**Expected Result:**  
+System should provide feedback or trigger a next action after selection  
+
+
+**Observation (current behavior):**  
+No feedback or action is triggered after selection  
+
+
 
 ** Expected Result:** Validation error is di
 ssplayed and login is not allowed
