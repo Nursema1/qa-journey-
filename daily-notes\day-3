@@ -1,0 +1,16 @@
+## Enviroment
+  - Site: https://the-internet.herokuapp.com/dropdown
+  - Device: PC
+  - Browser: Opera
+
+    ## Test Execution Results
+- TC-DROP-001 – PASS  
+- TC-DROP-002 – OBSERVED  
+- TC-DROP-003 – OBSERVED  
+
+
+    ## Observations
+- No feedback is shown after selecting an option  
+
+- Default option state is not explained to the user  
+  
