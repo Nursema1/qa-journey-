@@ -105,3 +105,18 @@ No feedback or action is triggered after selection
 **Expected Result:** Validation error is di
 ssplayed and login is not allowed
 
+### TC-DROP-002 - Don't change the default selected option
+**Precondition:** User is on the dropdown page
+
+**Steps:**
+1.Observe the default selected option
+2. Don't select any other option
+
+**Expected Result:**
+System should clearly handle or communicate the default state 
+
+**Observation ( current behavior):**
+Default state provides no feedback or guidance to the user
+
+
+
