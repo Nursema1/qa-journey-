@@ -35,6 +35,7 @@
 
 ### TC-INP-001 - Enter numeric vaule
 **Precondition:** User is on the Input page
+
 **Steps:** 
 1. Enter a numeric vaule (e.g., 10) into the input field
 
@@ -51,6 +52,7 @@ The vaule is accepted and displayed in the input field
 
 **Expectted Result:**
 System shoud prevent non-numeric input or show a validation message
+
 **Obseration ( if no vailidation exists):**
 Input accepts non-numeric characters without feedback
 
@@ -58,8 +60,6 @@ Input accepts non-numeric characters without feedback
 
 ### TC-ICP003 _ Enter a very large number (edge case)
 **Precondition:** User is on the Input page
-
-
 
 **Steps:** 
 1. Enter a very large number (e.g., 12345699) into the Inpud field
@@ -82,11 +82,10 @@ No limits or validation feedback are provided
 1. Click on the dropdown list
 2. Select ''Option 1'' 
 
-** Expected Result:** 
+**Expected Result:** 
 Selected option is displayed as the current vaule
 
 ### TC-DROP-002 – Select an option but receive no feedback
-
 **Precondition:** User is on the Dropdown page  
 
 **Steps:**
@@ -103,6 +102,6 @@ No feedback or action is triggered after selection
 
 
 
-** Expected Result:** Validation error is di
+**Expected Result:** Validation error is di
 ssplayed and login is not allowed
 
