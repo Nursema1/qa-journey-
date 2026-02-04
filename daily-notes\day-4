@@ -1,0 +1,16 @@
+## Exploratory Testing – Dropdown
+*(Keşif testi – Dropdown modülü)*
+
+**Observations:**
+
+- Selection resets after page refresh  
+  *(Sayfa yenilendiğinde seçim sıfırlanıyor ve varsayılan duruma dönüyor)*
+
+- Same option can be selected again without restriction  
+  *(Aynı seçenek tekrar seçilebiliyor, herhangi bir kısıtlama yok)*
+
+- Keyboard arrow keys allow option navigation  
+  *(Klavye yön tuşları ile seçenekler arasında geçiş yapılabiliyor)*
+
+- Dropdown receives focus via Tab navigation (with minor difficulty)  
+  *(Tab tuşu ile dropdown’a odaklanılabiliyor ancak erişim biraz zor)*
