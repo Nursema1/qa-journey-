@@ -120,3 +120,15 @@ Default state provides no feedback or guidance to the user
 
 
 
+### TC-DROP-004 - Rapid option switching
+**Precondition:** User is on the dropdown page
+
+**Steps:**
+1.Click the dropdown menu
+2.Rapidly switch between options
+
+**Expected Result:**
+System shoud handle rapid switching without UI issues
+
+**Observation:**
+No feedback or message is shown after switching
